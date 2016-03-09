@@ -1,5 +1,5 @@
 // search.cpp
-// Aswin van Woudenberg
+// Aswin van Woudenberg & Sander Kastelein
 
 #include <vector>
 #include <limits>

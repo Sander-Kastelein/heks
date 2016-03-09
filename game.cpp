@@ -1,5 +1,5 @@
 // game.cpp
-// Aswin van Woudenberg
+// Aswin van Woudenberg & Sander Kastelein
 
 #include <iterator>
 #include <algorithm>

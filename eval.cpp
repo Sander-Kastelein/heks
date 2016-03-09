@@ -1,5 +1,5 @@
 // eval.cpp
-// Aswin van Woudenberg
+// Aswin van Woudenberg & Sander Kastelein
 
 #include "eval.h"
 #include "move.h"

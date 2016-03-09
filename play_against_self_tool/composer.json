@@ -1,0 +1,6 @@
+{
+    "name": "root/play_against_self_tool",
+    "require": {
+        "nesbot/carbon": "^1.21"
+    }
+}
