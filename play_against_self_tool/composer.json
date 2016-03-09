@@ -1,6 +1,8 @@
 {
     "name": "root/play_against_self_tool",
     "require": {
-        "nesbot/carbon": "^1.21"
+        "nesbot/carbon": "^1.21",
+        "liip/process-manager": "^1.0",
+        "symfony/process": "^3.0"
     }
 }

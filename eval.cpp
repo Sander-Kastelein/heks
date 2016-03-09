@@ -25,7 +25,7 @@ int getMonteCarloEval(const State &board, Player player, int trials)
             wins++;
     }
     
-    return wins - trials / 2;
+    return (2 * wins) - trials;
 }
 
 int getRandomEval(const State &board, Player)

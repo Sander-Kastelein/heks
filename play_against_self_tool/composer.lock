@@ -4,9 +4,55 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6d665c38bf970d8a1c7ce93844893c46",
-    "content-hash": "96712158f7c61fbbb1d3a13d6924e935",
+    "hash": "03dde6fe0926c90bffb9503b99dd1364",
+    "content-hash": "b7260a57d66f9d4dc9bd69e43ede4573",
     "packages": [
+        {
+            "name": "liip/process-manager",
+            "version": "1.0.3",
+            "target-dir": "Liip/ProcessManager",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/liip/LiipProcessManager.git",
+                "reference": "e86d4594a53d2457ebecd768986bb8643f1f7c74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liip/LiipProcessManager/zipball/e86d4594a53d2457ebecd768986bb8643f1f7c74",
+                "reference": "e86d4594a53d2457ebecd768986bb8643f1f7c74",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Liip\\ProcessManager": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Community contributions",
+                    "homepage": "https://github.com/liip/LiipThemeBundle/contributors"
+                },
+                {
+                    "name": "Liip AG",
+                    "homepage": "http://www.liip.ch/"
+                }
+            ],
+            "description": "Provides a simple locking mechanism based on UNIX process id's written to a PID file.",
+            "keywords": [
+                "locking",
+                "pid",
+                "unix"
+            ],
+            "time": "2014-07-30 07:41:50"
+        },
         {
             "name": "nesbot/carbon",
             "version": "1.21.0",
@@ -112,6 +158,55 @@
                 "shim"
             ],
             "time": "2016-01-20 09:13:37"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "dfecef47506179db2501430e732adbf3793099c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/dfecef47506179db2501430e732adbf3793099c8",
+                "reference": "dfecef47506179db2501430e732adbf3793099c8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-02-02 13:44:19"
         },
         {
             "name": "symfony/translation",

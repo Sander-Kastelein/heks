@@ -14,6 +14,7 @@ Game::Game(int size, PlayerType red, PlayerType blue, Player firstPlayer,
     board(size, firstPlayer), red(red), blue(blue), firstPlayer(firstPlayer), 
     trials(trials), plies(plies), pieRuleAllowed(pieRuleAllowed), usedPieRule(false) 
 {
+  
 }
 
 Game::~Game() 
