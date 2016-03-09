@@ -1,3 +1,4 @@
 *.o
 hex
 vendor
+play_against_self_tool/vendor
